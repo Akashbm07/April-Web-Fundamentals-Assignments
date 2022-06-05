@@ -1,0 +1,12 @@
+let n=parseInt(prompt("Enter a number: "));
+function cubeofnum(n)
+{
+let i=1;
+  while(i<=n)
+    {
+        console.log(i*i*i) ;
+        i++;
+    }
+}
+
+cubeofnum(n);
