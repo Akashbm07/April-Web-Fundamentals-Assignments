@@ -1,0 +1,27 @@
+Question 2 : In how many ways can we loop in an array describe each with an example ?
+
+
+    1. For Loop:
+
+    A 'for' loop can be used to access every element of an array. The array begins at zero, and the array property length is used to set the loop end.
+
+    Eg: 
+        var mammals = new Array("cat","dog","human","whale","seal");
+        var animalString = "";
+        for (var i = 0; i < mammals. length; i++) {
+        animalString += mammals[i] + " ";
+        }
+        alert(animalString);
+
+    2. while loop :
+ 
+    the index counter, i, is incremented as it’s used to access an array element. The use of i++ means that the existing value of i is accessed first, and then the variable is incremented.
+
+    Eg: 
+        var numArray = new Array(1,4,66,123,240,444,555);
+        var i = 0;
+
+        while (numArray[i] < 100) {
+            alert(numArray[i++]);
+        }
+
